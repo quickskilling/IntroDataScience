@@ -1,0 +1,5 @@
+# Processed Data Directory
+
+This directory is for storing cleaned and transformed datasets generated during your exercises.
+
+Files in this directory are ignored by git (see `.gitignore`).

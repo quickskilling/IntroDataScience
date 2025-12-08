@@ -1,0 +1,12 @@
+[project]
+name = "intro-datascience"
+version = "0.1.0"
+description = "Beginner-friendly introduction to data science for Johannesburg SA 2026 trainings"
+readme = "README.md"
+requires-python = ">=3.12"
+
+dependencies = [
+    "marimo>=0.9.0",
+    "polars>=0.20.0",
+    "plotly>=5.18.0",
+]
