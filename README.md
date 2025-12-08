@@ -192,9 +192,10 @@ Track your journey through the course:
 ## 💡 Getting Help
 
 - **Read error messages carefully** - They often tell you exactly what's wrong!
-- **Ask GitHub Copilot** - If you have it installed, use Copilot Chat for help
 - **Check the docs** - Each tool we use has a guide in the `/docs` folder
 - **Ask your neighbor** - Pair programming can improve efficancy and help you learn
+- **Ask GitHub Copilot** - If you have it installed, use Copilot Chat for help
+- **Raise your hand** - A DataThink representative will be happy to help if you get stuck
 
 ---
 
