@@ -73,7 +73,7 @@ By the end of this course, you'll be able to:
 ✓ Clone repository and sync dependencies  
 ✓ Launch first notebook
 
-### Phase 1: Learn the Basics (1 hours)
+### Phase 1: Learn the Basics (1 hour)
 
 **📓 Notebook 1: Python Basics** (20 min)
 
