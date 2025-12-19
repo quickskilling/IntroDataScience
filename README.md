@@ -50,13 +50,29 @@ By the end of this course, you'll be able to:
    cd IntroDataScience
    ```
 
-4. **Sync dependencies**
+4. **Add UV to PATH**
+
+   ```bash
+   # macOS/Linux
+   source $HOME/.local/bin/env
+
+   # Windows (PowerShell)
+   # Should be added to PATH already, but in case
+   [Environment]::SetEnvironmentVariable("Path", $env:Path + ";C:\Users\$env:USERNAME\.cargo\bin", "User")
+   ```
+
+5. **Verify UV Installation**
+   ```bash
+   uv --version
+   ```
+
+6. **Sync dependencies**
 
    ```bash
    uv sync
    ```
 
-5. **Launch your first notebook**
+7. **Launch your first notebook**
    ```bash
    uv run marimo edit example_notebooks/01_python_basics.py
    ```
