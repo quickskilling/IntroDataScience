@@ -70,7 +70,7 @@ By the end of this course, you'll be able to:
 
    #### Windows 
 
-   - Download from [git-scm.com](https://git-scm.com/download/win) \
+   - Download from [git-scm.com](https://git-scm.com/download/win) <br>
 
    ```bash
    git --version
