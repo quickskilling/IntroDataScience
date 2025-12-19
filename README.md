@@ -43,14 +43,7 @@ By the end of this course, you'll be able to:
    powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
    ```
 
-3. **Clone this repository**
-
-   ```bash
-   git clone https://github.com/quickskilling/IntroDataScience.git
-   cd IntroDataScience
-   ```
-
-4. **Add UV to PATH**
+3. **Add UV to PATH and verify installation**
 
    ```bash
    # macOS/Linux
@@ -61,9 +54,34 @@ By the end of this course, you'll be able to:
    [Environment]::SetEnvironmentVariable("Path", $env:Path + ";C:\Users\$env:USERNAME\.cargo\bin", "User")
    ```
 
-5. **Verify UV Installation**
    ```bash
    uv --version
+   ```
+
+
+4. **Install Git and verify installation**
+   ```bash
+   # macOS
+   brew install git
+
+   # Linux
+   apt-get install git
+   ```
+
+   #### Windows 
+
+   - Download from [git-scm.com](https://git-scm.com/download/win)
+
+   ```bash
+   git --version
+   ```
+
+
+5. **Clone this repository**
+
+   ```bash
+   git clone https://github.com/quickskilling/IntroDataScience.git
+   cd IntroDataScience
    ```
 
 6. **Sync dependencies**
