@@ -31,22 +31,42 @@ By the end of this course, you'll be able to:
 
 1. **Install VS Code** (if you haven't already)
 
-   - Download from [code.visualstudio.com](https://code.visualstudio.com/)
+   - Download and Install VS Code from [code.visualstudio.com](https://code.visualstudio.com/)
+   - Install Marimo extension from [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=marimo-team.vscode-marimo)
+   
+  
+2. **Install Python**
+   ```bash
+   # macOS
+   brew install python@3.14
 
-2. **Install UV** (Python package manager)
+   # Windows (Powershell)
+   winget install Python.Python.3.14
+
+   # Linux (Ubuntu or Debian)
+   # Should come pre-installed with Python already, but just in case
+   apt-get install python3 python3-venv
+   ```
 
    ```bash
-   # macOS/Linux
+   # Verify Installation
+   python --version
+   ```
+
+3. **Install UV** (Python package manager)
+
+   ```bash
+   # macOS/Linux (Ubuntu or Debian)
    curl -LsSf https://astral.sh/uv/install.sh | sh
 
    # Windows (PowerShell)
    powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
    ```
 
-3. **Add UV to PATH and verify installation**
+4. **Add UV to PATH and verify installation**
 
    ```bash
-   # macOS/Linux
+   # macOS/Linux (Ubuntu or Debian)
    source $HOME/.local/bin/env
 
    # Windows (PowerShell)
@@ -55,42 +75,43 @@ By the end of this course, you'll be able to:
    ```
 
    ```bash
+   # Verify Installation
    uv --version
    ```
 
 
-4. **Install Git and verify installation**
+5. **Install Git and verify installation**
    ```bash
+   # Windows (Powershell)
+   winget install --id Git.Git -e --source winget
+   
    # macOS
    brew install git
 
-   # Linux
+   # Linux (Ubuntu or Debian)
    apt-get install git
    ```
 
-   #### Windows 
-
-   - Download from [git-scm.com](https://git-scm.com/download/win) <br>
-
    ```bash
+   # Verify Installation
    git --version
    ```
 
 
-5. **Clone this repository**
+6. **Clone this repository**
 
    ```bash
    git clone https://github.com/quickskilling/IntroDataScience.git
    cd IntroDataScience
    ```
 
-6. **Sync dependencies**
+7. **Sync dependencies**
 
    ```bash
    uv sync
    ```
 
-7. **Launch your first notebook**
+8. **Launch your first notebook**
    ```bash
    uv run marimo edit example_notebooks/01_python_basics.py
    ```
@@ -201,7 +222,9 @@ Track your journey through the course:
 ### Setup
 
 - [ ] Install VS Code and extensions
+- [ ] Install Python
 - [ ] Install UV and dependencies
+- [ ] Install Git and clone repository
 - [ ] Run first notebook successfully
 
 ### Learn (Example Notebooks)
