@@ -8,7 +8,7 @@
 
 import marimo
 
-__generated_with = "0.18.3"
+__generated_with = "0.19.6"
 app = marimo.App(width="medium")
 
 
@@ -36,6 +36,17 @@ def _(mo):
 def _(mo):
     mo.md(r"""
     ## Exercise 1-1: Variables and Basic Operations
+
+    **Python Data Types Reference:**
+
+    | Category | Type | Example | Mutable? |
+    |----------|------|---------|----------|
+    | Text | `string` | `"Python"` | No |
+    | Numeric | `int, float` | `42, 9.99` | No |
+    | Sequence | `list` | `[1, 2, 2]` | Yes |
+    | Sequence | `tuple` | `(1, 2, 2)` | No |
+    | Mapping | `dictionary` | `{"a": 1, "name": "Alice"}` | Yes |
+    | Set | `set` | `{1, 2, 3}` | Yes |
     """)
     return
 
@@ -77,10 +88,10 @@ def _():
     # 3. 100 divided by 7 (keep decimals)
     # 4. 2 to the power of 10
 
-    sum_result = 0  # TODO
+    sum_result = 40 + 67  # TODO
     product = 0  # TODO
     division = 0  # TODO
-    power = 0  # TODO
+    power = 2^2  # TODO
 
     print(f"Sum: {sum_result}")
     print(f"Product: {product}")
@@ -167,7 +178,6 @@ def _():
     temperature = 25  # Try changing this value
 
     # Write your if/elif/else statements here
-
     return
 
 
@@ -185,7 +195,6 @@ def _():
     numbers = [2, 4, 6, 8, 10]
 
     # Write your loop here
-
     return
 
 

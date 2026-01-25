@@ -1,0 +1,270 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.19.6"
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "14e0a403fca75bc22ead210f8c88a5f3",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"exercise-1-python-fundamentals\">Exercise 1: Python Fundamentals \ud83d\udc0d</h1>\n<span class=\"paragraph\"><strong>Practice what you learned!</strong> Complete these exercises to build your Python skills.</span>\n<span class=\"paragraph\"><strong>Estimated time:</strong> 30 minutes</span>\n<span class=\"paragraph\"><strong>Instructions:</strong></span>\n<ul>\n<li>Read each TODO comment</li>\n<li>Write code to complete the task</li>\n<li>Run the cell to check your answer</li>\n<li>Solutions are available in <code>solutions/ex01_fundamentals.py</code></li>\n</ul>\n<hr /></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "3565e309adb10d7c8a2b697f37675b46",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"exercise-1-1-variables-and-basic-operations\">Exercise 1-1: Variables and Basic Operations</h2>\n<span class=\"paragraph\"><strong>Python Data Types Reference:</strong></span>\n<table>\n<thead>\n<tr>\n<th>Category</th>\n<th>Type</th>\n<th>Example</th>\n<th>Mutable?</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Text</td>\n<td><code>string</code></td>\n<td><code>\"Python\"</code></td>\n<td>No</td>\n</tr>\n<tr>\n<td>Numeric</td>\n<td><code>int, float</code></td>\n<td><code>42, 9.99</code></td>\n<td>No</td>\n</tr>\n<tr>\n<td>Sequence</td>\n<td><code>list</code></td>\n<td><code>[1, 2, 2]</code></td>\n<td>Yes</td>\n</tr>\n<tr>\n<td>Sequence</td>\n<td><code>tuple</code></td>\n<td><code>(1, 2, 2)</code></td>\n<td>No</td>\n</tr>\n<tr>\n<td>Mapping</td>\n<td><code>dictionary</code></td>\n<td><code>{\"a\": 1, \"name\": \"Alice\"}</code></td>\n<td>Yes</td>\n</tr>\n<tr>\n<td>Set</td>\n<td><code>set</code></td>\n<td><code>{1, 2, 3}</code></td>\n<td>Yes</td>\n</tr>\n</tbody>\n</table></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "e31ceddca6f415150591cb0110154ca5",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"exercise-1-2-math-operations\">Exercise 1-2: Math Operations</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "2f7286b068f9857885e603ed5a14c618",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"exercise-1-3-working-with-lists\">Exercise 1-3: Working with Lists</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "SFPL",
+      "code_hash": "b1697bd4cad0394d1f3d215a3470b5a4",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"exercise-1-4-dictionary-practice\">Exercise 1-4: Dictionary Practice</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "RGSE",
+      "code_hash": "e48811a6cdb6cd7c60b6fb35b232e9a0",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"exercise-1-5-ifelse-logic\">Exercise 1-5: If/Else Logic</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "emfo",
+      "code_hash": "ac0acb01a51bd1988552cdc5e016eaaa",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"exercise-1-6-for-loop-practice\">Exercise 1-6: For Loop Practice</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "iLit",
+      "code_hash": "475d78aab93c9a5c76bf5bf0f16eead9",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"exercise-1-7-list-comprehension\">Exercise 1-7: List Comprehension</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "qnkX",
+      "code_hash": "b71ac2b4a3a85ea24117de16e36c1142",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"exercise-1-8-function-basics\">Exercise 1-8: Function Basics</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Vxnm",
+      "code_hash": "89bd77bd8416e7d7a8f96d11726279a7",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"exercise-1-9-function-with-calculation\">Exercise 1-9: Function with Calculation</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ulZA",
+      "code_hash": "ff9d8438fda877626a4396557ab2702b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"exercise-1-10-putting-it-together\">Exercise 1-10: Putting It Together</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Pvdt",
+      "code_hash": "007677d424d1b711735b34ab9e6a96a9",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"great-job\">\ud83c\udf89 Great Job!</h2>\n<span class=\"paragraph\">You've completed the fundamentals exercises!</span>\n<span class=\"paragraph\"><strong>What's next?</strong></span>\n<ul>\n<li>Check your solutions against <code>solutions/ex01_fundamentals.py</code></li>\n<li>Move on to Exercise 2: Wrangle and Plot</li>\n</ul>\n<span class=\"paragraph\"><strong>Tips:</strong></span>\n<ul>\n<li>If you got stuck, that's normal! Check the solutions and learn from them</li>\n<li>Try modifying the exercises with your own data</li>\n<li>Python gets easier with practice</li>\n</ul></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "f5eb9825f155829dd167c42605da22bc",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Name: YourName\nAge: 0\nHeight: 0.0m\nStudent: False\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "e04c0d19188407b4d6591d7403e1379a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Sum: 107\nProduct: 0\nDivision: 0\nPower: 0\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "Xref",
+      "code_hash": "9d0c0ea067b3b3ee037b1fa69c908ce2",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "BYtC",
+      "code_hash": "a42148b9171f572edfd2e62ed0f1d946",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "Kclp",
+      "code_hash": "eb7b566073d59263425345f155109315",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "Hstk",
+      "code_hash": "972feca1db29972423ee3c1040372374",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "nWHF",
+      "code_hash": "f0d35375451a4bbe2159df4064dfafa8",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "ZHCJ",
+      "code_hash": "bcac2413efe89e48ebeb0469ec7abe9c",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "ROlb",
+      "code_hash": "32c51b2b03945057a7c3be320d2f12bf",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "TqIu",
+      "code_hash": "b77170746159fea7b3b48ce8961681d7",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "DnEU",
+      "code_hash": "4db3996da35ae90f5c54720acf3043e6",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "ecfG",
+      "code_hash": "be109d45d12949c36d9c001ead955602",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "ZBYS",
+      "code_hash": "1d0db38904205bec4d6f6f6a1f6cec3e",
+      "outputs": [],
+      "console": []
+    }
+  ]
+}

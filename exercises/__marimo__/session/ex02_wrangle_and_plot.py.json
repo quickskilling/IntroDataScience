@@ -1,0 +1,348 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.19.6"
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "1fe202c2e34c5b31a2c8c6d077c9d539",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"exercise-2-data-wrangling-plotting\">Exercise 2: Data Wrangling &amp; Plotting \ud83d\udcca</h1>\n<span class=\"paragraph\"><strong>Practice Polars and Plotly together!</strong></span>\n<span class=\"paragraph\"><strong>Estimated time:</strong> 60 minutes</span>\n<span class=\"paragraph\"><strong>What you'll do:</strong></span>\n<ul>\n<li>Load and explore real datasets</li>\n<li>Filter and transform data</li>\n<li>Create visualizations</li>\n<li>Answer questions with data</li>\n</ul>\n<span class=\"paragraph\"><strong>Instructions:</strong></span>\n<ul>\n<li>Complete each TODO section</li>\n<li>Run cells to see your results</li>\n<li>Solutions available in <code>solutions/ex02_wrangle_and_plot.py</code></li>\n</ul>\n<hr /></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "edfe7244beb3bc106466ec2bb8b1e2ce",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"part-1-load-and-explore-data\">Part 1: Load and Explore Data</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "37ee59ee32a4869e53a3a3584792585b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"part-2-filtering-practice\">Part 2: Filtering Practice</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "BYtC",
+      "code_hash": "3e6bd59f6ea41cd84f10f4cff517ef43",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"part-3-selecting-and-creating-columns\">Part 3: Selecting and Creating Columns</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "emfo",
+      "code_hash": "3a6de1a9bb1a77bcba0e0d93207e73ee",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"part-4-working-with-sales-data\">Part 4: Working with Sales Data</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "iLit",
+      "code_hash": "18a47cca67be09ff7e522ad4e548fcd7",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"part-5-aggregations-and-grouping\">Part 5: Aggregations and Grouping</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "TqIu",
+      "code_hash": "a1fe7f0343539b7f5036d728068f70c7",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"part-6-date-operations\">Part 6: Date Operations</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ulZA",
+      "code_hash": "c85482734fc2331b3bafa4af1b1c31c4",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"part-7-your-first-plot-bar-chart\">Part 7: Your First Plot - Bar Chart</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Pvdt",
+      "code_hash": "a361c6fde644e8e5528a43258e5cb7d1",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"part-8-line-chart-sales-over-time\">Part 8: Line Chart - Sales Over Time</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "aLJB",
+      "code_hash": "541ad2025e7b40bcf40503b33e46b144",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"part-9-scatter-plot-exploring-relationships\">Part 9: Scatter Plot - Exploring Relationships</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "xXTn",
+      "code_hash": "249384ab7e22a74f9e21818b270b42fe",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"part-10-histogram-distribution-analysis\">Part 10: Histogram - Distribution Analysis</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "pHFh",
+      "code_hash": "dccf5466743260b362158bff731ef064",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"part-11-box-plot-compare-distributions\">Part 11: Box Plot - Compare Distributions</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "aqbW",
+      "code_hash": "5dd63c43421ae25f4a695cf47433ef64",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"part-12-advanced-multiple-subplots\">Part 12: Advanced - Multiple Subplots</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "TXez",
+      "code_hash": "4e711cf9ae5f33200ba8e7882ae02f04",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"part-13-challenge-answer-this-question\">Part 13: Challenge - Answer This Question</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "dNNg",
+      "code_hash": "289d68362dfa4e93e38a882a12a7dbcc",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>Question:</strong> What is the most popular product category in each region?</span>\n<span class=\"paragraph\"><strong>Your task:</strong></span>\n<ol>\n<li>Group the sales data by region AND product_category</li>\n<li>Count transactions for each combination</li>\n<li>For each region, find the category with the most transactions</li>\n<li>Create a bar chart showing the top category per region</li>\n</ol>\n<span class=\"paragraph\">This combines multiple skills: grouping, filtering, and plotting!</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "kqZH",
+      "code_hash": "6c0f1daddc0bb4fe5b2bd8d562cf4ec4",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"excellent-work\">\ud83c\udf89 Excellent Work!</h2>\n<span class=\"paragraph\">You've completed the data wrangling and plotting exercises!</span>\n<span class=\"paragraph\"><strong>What you practiced:</strong></span>\n<ul>\n<li>\u2705 Loading CSV and JSON data with Polars</li>\n<li>\u2705 Filtering and selecting data</li>\n<li>\u2705 Creating calculated columns</li>\n<li>\u2705 Grouping and aggregating</li>\n<li>\u2705 Date operations</li>\n<li>\u2705 Multiple chart types (bar, line, scatter, histogram, box)</li>\n<li>\u2705 Combining data analysis with visualization</li>\n</ul>\n<span class=\"paragraph\"><strong>What's next?</strong></span>\n<ul>\n<li>Compare your solutions with <code>solutions/ex02_wrangle_and_plot.py</code></li>\n<li>Move on to Exercise 3: Mini Project</li>\n<li>Try creating your own visualizations with the data!</li>\n</ul>\n<span class=\"paragraph\"><strong>Pro Tips:</strong></span>\n<ul>\n<li>Plotly charts are interactive - hover, zoom, pan!</li>\n<li>Chain Polars operations for cleaner code</li>\n<li>Always explore your data before plotting</li>\n</ul></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "67573fae35e32e81bbbe2c3a8324d7d4",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "3297396cf7ab2f3c3465cebd99a3cc37",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "07431de5218d097e5d52736bd43fb871",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "64afd004d7e8031b918098d25f00397a",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "SFPL",
+      "code_hash": "6662365da7939c05c980fa1bd91a10a9",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "RGSE",
+      "code_hash": "580e2fcfc866ecfc73cfce67d7caa2b9",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "Kclp",
+      "code_hash": "7493665825a6ab2fa87cf0a4980b2a39",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "Hstk",
+      "code_hash": "d3c20898f6abda14c6e3cf3f46e3baa6",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "nWHF",
+      "code_hash": "fbfaf6c6e453f70124180a8bd7c40c20",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "ZHCJ",
+      "code_hash": "7064916f997583e54e6fb326f93d381b",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "ROlb",
+      "code_hash": "7dc666687f295f64e30c6632c8ed4739",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "qnkX",
+      "code_hash": "01b366c397da19eb1a525ad113bcfa51",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "Vxnm",
+      "code_hash": "5ec4556237f34464fee3f7c858f6b978",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "DnEU",
+      "code_hash": "b72e55817e7fbdfc2190acff462a88d3",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "ecfG",
+      "code_hash": "82ff96760881f272691a49945a8b9000",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "ZBYS",
+      "code_hash": "da6ed07cdef6fe1294a3cf917e87267a",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "nHfw",
+      "code_hash": "ca963d52aab9edd87c34d75d08abc4f8",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "AjVT",
+      "code_hash": "f56deedb42911f75c422a62268997265",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "NCOB",
+      "code_hash": "7c9b40b47d55e6f428d1361c7819d140",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "TRpd",
+      "code_hash": "dec4310c366d8b2f779c70228477f3de",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "yCnT",
+      "code_hash": "cffaf20cce3d919965d4f5347d1ac6bd",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "wlCL",
+      "code_hash": "10d14de89e85a7003a0ac8f8578cf48c",
+      "outputs": [],
+      "console": []
+    }
+  ]
+}
