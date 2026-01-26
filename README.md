@@ -34,42 +34,18 @@ By the end of this course, you'll be able to:
    - Download and Install VS Code from [code.visualstudio.com](https://code.visualstudio.com/)
    - Install Marimo extension from [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=marimo-team.vscode-marimo)
    
-  
-2. **Install Python**
-   ```bash
-   # macOS
-   brew install python@3.14
 
-   # Windows (Powershell)
-   winget install Python.Python.3.14
 
-   # Linux (Ubuntu or Debian)
-   # Should come pre-installed with Python already, but just in case
-   apt-get install python3 python3-venv
-   ```
-
-   ```bash
-   # Verify Installation
-   python --version
-   ```
-
-3. **Install UV** (Python package manager)
+2. **Install UV and add to PATH** (Python package manager)
 
    ```bash
    # macOS/Linux (Ubuntu or Debian)
    curl -LsSf https://astral.sh/uv/install.sh | sh
-
-   # Windows (PowerShell)
-   powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
-   ```
-
-4. **Add UV to PATH and verify installation**
-
-   ```bash
-   # macOS/Linux (Ubuntu or Debian)
    source $HOME/.local/bin/env
 
    # Windows (PowerShell)
+   powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+   
    # Should be added to PATH already, but in case
    [Environment]::SetEnvironmentVariable("Path", $env:Path + ";C:\Users\$env:USERNAME\.cargo\bin", "User")
    ```
@@ -79,8 +55,18 @@ By the end of this course, you'll be able to:
    uv --version
    ```
 
+   3. **Install Python with UV**
+   ```bash
+   uv python install
+   ```
 
-5. **Install Git and verify installation**
+   ```bash
+   # Verify Installation
+   python --version
+   ```
+
+
+4. **Install Git and verify installation**
    ```bash
    # Windows (Powershell)
    winget install --id Git.Git -e --source winget
@@ -98,20 +84,20 @@ By the end of this course, you'll be able to:
    ```
 
 
-6. **Clone this repository**
+5. **Clone this repository**
 
    ```bash
    git clone https://github.com/quickskilling/IntroDataScience.git
    cd IntroDataScience
    ```
 
-7. **Sync dependencies**
+6. **Sync dependencies**
 
    ```bash
    uv sync
    ```
 
-8. **Launch your first notebook**
+7. **Launch your first notebook**
    ```bash
    uv run marimo edit example_notebooks/01_python_basics.py
    ```
