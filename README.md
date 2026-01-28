@@ -4,7 +4,7 @@
 
 **For**: First-time coders learning data science  
 **Location**: Johannesburg SA 2026 Trainings  
-**Duration**: ~4 hours
+**Duration**: ~3 hours
 
 ---
 
@@ -15,7 +15,6 @@ By the end of this course, you'll be able to:
 - Write Python code for data analysis
 - Load and manipulate data with Polars
 - Create interactive visualizations with Plotly
-- Complete a full data analysis project
 - Use AI tools (GitHub Copilot) to help you code
 
 ---
@@ -108,8 +107,9 @@ By the end of this course, you'll be able to:
 
 ## 📚 Learning Path
 
-### Setup (30 minutes)
+### Overview and Setup (40 minutes)
 
+✓ Overview of Data Science and Tools
 ✓ Install VS Code and UV  
 ✓ Clone repository and sync dependencies  
 ✓ Launch first notebook
@@ -128,7 +128,6 @@ By the end of this course, you'll be able to:
 - Loading data (CSV, JSON, Parquet)
 - Exploring DataFrames with Polars
 - Filtering, selecting, and transforming data
-- Grouping and aggregation
 - Joining datasets
 
 **📓 Notebook 3: Plotting** (20 min)
@@ -136,7 +135,7 @@ By the end of this course, you'll be able to:
 - Line charts and bar charts
 - Scatter plots and histograms
 - Customizing visualizations
-- Interactive features
+- Subplots
 
 ### Phase 2: Practice (2 hours)
 
@@ -145,19 +144,17 @@ By the end of this course, you'll be able to:
 - Practice Python basics
 - 8-10 hands-on exercises
 
-**✏️ Exercise 2: Wrangle and Plot** (30 min)
+**✏️ Exercise 2: Basic Data Wrangling with Polars** (20 min)
 
 - Load and manipulate real datasets
+- Answer questions with data
+
+**✏️ Exercise 3: Basic Plotting with Plotly** (20 min)
+
 - Create visualizations from data
-- 10-12 practical exercises
+- Hands-on exercises
 
-**✏️ Exercise 3: Mini Project** (60 min)
-
-- Complete end-to-end sales analysis
-- Answer business questions with data
-- Build your first portfolio piece!
-
-**Total Time**: ~4 hours 
+**Total Time**: ~3 hours 
 
 ---
 
@@ -188,7 +185,6 @@ Our modern, industry-standard tools:
 │   ├── ex02_wrangle_and_plot.py
 │   └── ex03_mini_project.py
 │
-├── ✅ solutions/           → Exercise solutions (try first!)
 │
 ├── 📊 data/                → Sample datasets
 │   └── raw/
@@ -221,13 +217,13 @@ Track your journey through the course:
 
 ### Practice (Exercises)
 
-- [ ] Exercise 1: Fundamentals (30 min)
-- [ ] Exercise 2: Wrangle and Plot (60 min)
-- [ ] Exercise 3: Mini Project (60 min)
+- [ ] Exercise 1: Fundamentals (20 min)
+- [ ] Exercise 2: Basic Data Wrangling with Polars (20 min)
+- [ ] Exercise 3: Basic Plotting with Plotly (20 min)
 
 ### You're Done! 🎉
 
-- [ ] Share your mini project
+- [ ] Share your work
 - [ ] Keep learning with your own data
 
 ---
