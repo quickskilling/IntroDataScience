@@ -54,7 +54,7 @@ By the end of this course, you'll be able to:
    uv --version
    ```
 
-   3. **Install Python with UV**
+3. **Install Python with UV**
    ```bash
    uv python install
    ```
