@@ -169,6 +169,9 @@ Our modern, industry-standard tools:
 - **[Plotly](plotly-visualization.md)** 📊 - Interactive visualizations
 - **[GitHub Copilot](copilot-assisted-coding.md)** 🤖 - AI coding assistant
 
+   If git doesn't work for you, you can [download the repository](https://github.com/quickskilling/IntroDataScience/archive/refs/heads/main.zip)
+
+
 ---
 
 ## 📁 Repository Structure
