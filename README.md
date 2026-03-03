@@ -7,16 +7,20 @@
 **Duration**: ~3 hours
 
 ---
+## What you'll learn (by the end of this class)
+- Load and explore a dataset with Python
+- Perform basic data cleaning and transformations with Polars
+- Create simple visualizations with Plotly
+- Use GitHub Copilot responsibly to speed up learning
 
-## 🎯 What You'll Learn
+## Dataset note
+The datasets in this repository are provided for learning purposes.  
 
-By the end of this course, you'll be able to:
-
-- Write Python code for data analysis
-- Load and manipulate data with Polars
-- Create interactive visualizations with Plotly
-- Use AI tools (GitHub Copilot) to help you code
-
+## Common setup issues (quick fixes)
+- **`uv` command not found**: close and reopen your terminal after installing UV (or restart VS Code).
+- **Install/Sync fails**: run `uv sync` again from the project folder (where `pyproject.toml` is).
+- **Marimo won't start / port in use**: stop other running notebooks/apps, then rerun the start command.
+- **Permission issues on Windows**: try running PowerShell as Administrator.
 ---
 
 ## 🚀 Quick Start (5 Minutes)
