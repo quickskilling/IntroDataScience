@@ -92,7 +92,7 @@ IntroDataScience/
 **Contains**:
 
 - Project metadata (name, version, description)
-- Python version requirement (3.11+)
+- Python version requirement (3.12+)
 - Dependencies: `marimo`, `polars`, `plotly`, `jupyter` (for compatibility)
 - Dev dependencies: `ruff` (linting), `pytest` (testing)
 - UV-specific configuration settings
