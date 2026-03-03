@@ -145,7 +145,7 @@ Almost identical to links, but with a `!` at the start. The text in `[]` is the 
 ![Local chart](images/chart.png)
 ```
 
-![cute_cat](cute_cat.jpg)
+![cute_cat](sample_images/cute_cat.jpg)
 
 ## Part 5 — Code
 
