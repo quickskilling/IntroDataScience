@@ -2,6 +2,8 @@
 # requires-python = ">=3.13"
 # dependencies = [
 #     "marimo>=0.20.2",
+#     "plotly>=6.6.0",
+#     "polars>=1.39.3",
 #     "pyzmq>=27.1.0",
 # ]
 # ///

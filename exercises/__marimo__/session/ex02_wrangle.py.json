@@ -1,0 +1,183 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.20.2"
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "a597218d852be960da682db9bae2627b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"exercise-2-data-wrangling\">Exercise 2: Data Wrangling</h1>\n<span class=\"paragraph\"><strong>Practice Polars!</strong></span>\n<span class=\"paragraph\"><strong>What you'll do:</strong></span>\n<ul>\n<li>Load and explore real datasets</li>\n<li>Filter and transform data</li>\n<li>Answer questions with data</li>\n</ul>\n<span class=\"paragraph\"><strong>Instructions:</strong></span>\n<ul>\n<li>Complete each TODO section</li>\n<li>Run cells to see your results</li>\n</ul>\n<hr /></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "d53a8e7f2a0cca330d4736afceeff384",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"part-1-load-and-explore-data\">Part 1: Load and Explore Data</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "bcef2bf70d69b12fe740e46376a3167d",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"part-2-filtering-practice\">Part 2: Filtering Practice</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "RGSE",
+      "code_hash": "06650b9536cd6cd347e7d4cb86340847",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"part-3-selecting-and-creating-columns\">Part 3: Selecting and Creating Columns</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Hstk",
+      "code_hash": "790fdd7541a5614dcf1ea6c346945778",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"part-4-working-with-sales-data\">Part 4: Working with Sales Data</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ROlb",
+      "code_hash": "ecefbb68486d55257da8a8c47139579c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"part-5-date-operations\">Part 5: Date Operations</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "DnEU",
+      "code_hash": "b4f249e3472e2016bbfbf56207891e43",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"excellent-work\">\ud83c\udf89 Excellent Work!</h2>\n<span class=\"paragraph\">You've completed the data wrangling exercises!</span>\n<span class=\"paragraph\"><strong>What you practiced:</strong></span>\n<ul>\n<li>\u2705 Loading CSV and JSON data with Polars</li>\n<li>\u2705 Filtering and selecting data</li>\n<li>\u2705 Creating calculated columns</li>\n<li>\u2705 Date operations</li>\n</ul>\n<span class=\"paragraph\"><strong>What's next?</strong></span>\n<ul>\n<li>Move on to Exercise 3: Plot</li>\n</ul>\n<span class=\"paragraph\"><strong>Pro Tips:</strong></span>\n<ul>\n<li>Chain Polars operations for cleaner code</li>\n<li>Always explore your data before plotting</li>\n</ul></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "67573fae35e32e81bbbe2c3a8324d7d4",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "55ad6a9fda18396ca3b2a1fe87495525",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "d50c9f7b12a60a3d0392a1c83b97a8e6",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "a2bee0a45c8e09d9b396d79cf4ef5ec9",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "SFPL",
+      "code_hash": "f1f3558b7db7766d04f00eb7f5c1f4c6",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "BYtC",
+      "code_hash": "ef03d384fd923ed0966febe45b7e43f0",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "Kclp",
+      "code_hash": "f65566b2cc411c2648288b2c62518bdb",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "emfo",
+      "code_hash": "a8abd75b5ca60b1c7b3dc961394ffc9a",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "nWHF",
+      "code_hash": "9a496431338c6b988bf8e01a3f002837",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "iLit",
+      "code_hash": "b9891e304cfeb5d08169af0f1d741cce",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "ZHCJ",
+      "code_hash": "c5a297f15655c310df73912e71aee8e9",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "qnkX",
+      "code_hash": "9f07312c7292ab4b7330301932fb70c6",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "TqIu",
+      "code_hash": "7233e52cf7d11c396ac4467397ac6fe6",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "Vxnm",
+      "code_hash": "0c541b7819275e0186e9c24cc4c6f21a",
+      "outputs": [],
+      "console": []
+    }
+  ]
+}
