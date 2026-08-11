@@ -2,9 +2,7 @@
 
 > A beginner-friendly, hands-on introduction to modern data science tools and techniques
 
-**For**: First-time coders learning data science  
-**Location**: Johannesburg SA 2026 Trainings  
-**Duration**: ~3 hours
+**For**: First-time coders learning data science
 
 ---
 
