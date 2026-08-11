@@ -152,8 +152,6 @@ By the end of this course, you'll be able to:
 - Create visualizations from data
 - Hands-on exercises
 
-**Total Time**: ~3 hours 
-
 ---
 
 ## 🛠️ Technology Stack
