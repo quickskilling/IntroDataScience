@@ -112,7 +112,7 @@ By the end of this course, you'll be able to:
 ✓ Clone repository and sync dependencies  
 ✓ Launch first notebook
 
-### Phase 1: Learn the Basics (1 hour)
+### Phase 1: Learn the Basics
 
 **📓 Notebook 1: Python Basics** (20 min)
 
@@ -121,33 +121,33 @@ By the end of this course, you'll be able to:
 - Control flow (if/else, loops)
 - Functions
 
-**📓 Notebook 2: Data Wrangling** (20 min)
+**📓 Notebook 2: Data Wrangling**
 
 - Loading data (CSV, JSON, Parquet)
 - Exploring DataFrames with Polars
 - Filtering, selecting, and transforming data
 - Joining datasets
 
-**📓 Notebook 3: Plotting** (20 min)
+**📓 Notebook 3: Plotting**
 
 - Line charts and bar charts
 - Scatter plots and histograms
 - Customizing visualizations
 - Subplots
 
-### Phase 2: Practice (1 hour)
+### Phase 2: Practice
 
-**✏️ Exercise 1: Fundamentals** (20 min)
+**✏️ Exercise 1: Fundamentals**
 
 - Practice Python basics
 - 8-10 hands-on exercises
 
-**✏️ Exercise 2: Basic Data Wrangling with Polars** (20 min)
+**✏️ Exercise 2: Basic Data Wrangling with Polars**
 
 - Load and manipulate real datasets
 - Answer questions with data
 
-**✏️ Exercise 3: Basic Plotting with Plotly** (20 min)
+**✏️ Exercise 3: Basic Plotting with Plotly**
 
 - Create visualizations from data
 - Hands-on exercises
