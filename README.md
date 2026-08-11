@@ -105,7 +105,7 @@ By the end of this course, you'll be able to:
 
 ## 📚 Learning Path
 
-### Overview and Setup (40 minutes)
+### Overview and Setup
 
 ✓ Overview of Data Science and Tools
 ✓ Install VS Code and UV  
@@ -114,7 +114,7 @@ By the end of this course, you'll be able to:
 
 ### Phase 1: Learn the Basics
 
-**📓 Notebook 1: Python Basics** (20 min)
+**📓 Notebook 1: Python Basics**
 
 - Variables, data types, and operations
 - Lists and dictionaries
